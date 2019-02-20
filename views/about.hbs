@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Some Webpage</title>
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Some Webpage</title>
+    {{> styleProp}}
+</head>
+<body>
+    <div class="main">
         {{> header}}
+        <hr>
         <p>Some text</p>
         {{> footer}}
-    </body>
+    </div>
+</body>
+
 </html>
